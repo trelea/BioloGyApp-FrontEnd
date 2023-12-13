@@ -5,6 +5,7 @@ export const App = () => {
     return (
         <BrowserRouter>
             <Routes>
+                <Route path="/" element={ <Main isConvertor={true}/> }/>
                 <Route path="/convertor" element={ <Main isConvertor={true}/> }/>
                 <Route path="/resolver" element={ <Main isConvertor={false}/> }/>
             </Routes>
