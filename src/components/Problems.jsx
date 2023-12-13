@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import maleImg from "../assets/male.png";
 import femaleImg from "../assets/female.png";
 import maleFemaleImg from "../assets/maleFemaleLogo.png";
