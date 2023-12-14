@@ -77,8 +77,8 @@ export const Problems = () => {
             
             <div className="mt-10 mx-6 sm:mx-36 lg:mx-52 xl:mx-24 2xl:mx-60 flex justify-between">
                 <button className={ basicProblem === false ?
-                    "bg-white rounded-full px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-green-700 font-medium text-lg" :
-                    "bg-green-700 rounded-full px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-white font-medium text-lg"
+                    "bg-white rounded-full px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-green-700 font-medium text-sm" :
+                    "bg-green-700 rounded-full px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-white font-medium text-sm"
                 } onClick={() => {
                     setBasicProblem(true);
                     setAdvancedProblem(false);
@@ -86,8 +86,8 @@ export const Problems = () => {
                     setPreviewAdvTable(false);
                 }}>Basic Problem</button>
                 <button className={ basicProblem === true ?
-                    "bg-white rounded-full px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-green-700 font-medium text-lg" :
-                    "bg-green-700 rounded-full px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-white font-medium text-lg"
+                    "bg-white rounded-full px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-green-700 font-medium text-sm" :
+                    "bg-green-700 rounded-full px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-white font-medium text-sm"
                 } onClick={() => {
                     setBasicProblem(false);
                     setAdvancedProblem(true);
