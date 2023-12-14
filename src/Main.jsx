@@ -6,7 +6,11 @@ import { Problems } from "./components/Problems";
 export const Main = ({ isConvertor }) => {
     return (
         <div className="flex flex-col bg-slate-100 xl:flex-row h-screen">
+<<<<<<< HEAD
             <div className="fixed bottom-2 left-2">
+=======
+            <div className="fixed bottom-4 left-4">
+>>>>>>> de7d552 (update component)
                 <button className="mt-4 bg-green-700 rounded-full p-1 px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-white font-semibold text-2xl hover:bg-green-800" onClick={() => {
                     if (isConvertor === true) return window.location.href = '/resolver'
                     return window.location.href = '/convertor'
