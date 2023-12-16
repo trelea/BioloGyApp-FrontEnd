@@ -59,7 +59,7 @@ export const Convertor = () => {
             <div className="mt-8 mx-6 sm:mx-10">
                 <div className="flex items-center">
                     <img className="rounded-full border p-2 border-gray-700" width="50" height="50" src="https://img.icons8.com/pastel-glyph/64/dna-helix.png" alt="dna-helix"/>
-                    <h1 className="ml-4 text-black text-3xl font-extrabold border-b-2 pb-2 border-black sm:text-4xl">Adn Calculator</h1> 
+                    <h1 className="ml-4 text-black text-3xl font-extrabold border-b-2 pb-2 border-black sm:text-4xl">ADN Calculator</h1> 
                 </div>
                 
 
