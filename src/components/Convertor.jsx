@@ -122,7 +122,7 @@ export const Convertor = () => {
                                     <p>Original: {res.original}</p>
                                     <p>Replicarea: {res.replicarea_antiCodogena}</p>
                                     <p>Transcrierea: {res.transcriptia_ARNm}</p>
-                                    <p>Translatiea: {res.decodificarea}</p>
+                                    <p>Translatia: {res.decodificarea}</p>
                                 </div> 
                                 :
                                 <div className="flex flex-col gap-3">
